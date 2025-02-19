@@ -33,7 +33,7 @@
   extent.
 - After reblance, training and validation accuracy both increase consistently, except with little variance at
   the end. There is a slight divergence towards later epochs, but validation accuracy is not significantly    lower than training accuracy. Training loss decreases steadily.Validation loss fluctuates slightly but remains close to training loss.
-- After rebalancing is better because 
+- After rebalancing, the model is better because :
   - More stable validation accuracy (less fluctuation).
   - There is lower validation loss and better alignment with training loss.
   - Better generalization (training and validation accuracy curves are closer).
